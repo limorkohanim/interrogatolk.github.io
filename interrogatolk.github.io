@@ -12,8 +12,6 @@
 
 function rndinterrogato( primo, ultimo) {
 return Math.floor(Math.random()*(ultimo - primo + 1) ) + primo;
-
-
 }
 
 </script>
