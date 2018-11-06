@@ -10,7 +10,7 @@
 <script>
  alunni =[ "Abou Hamrah", "Bueno", "Foà", "Hallac", "Hassan", "Katri", "Kohanim, "Liuim", "Loloey", "Rimini", "Sassoon", "Sazbon", "Somekh", "Turiel", "Zelnick"] 
 
-function rndinterrogato( primo, ultimo) {
+function rndinterrogato ( primo, ultimo) {
 return Math.floor(Math.random()*(ultimo - primo + 1) ) + primo;
 }
 
