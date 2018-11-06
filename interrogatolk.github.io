@@ -8,7 +8,7 @@
 var alunni = [ "1", "2", "3"]
 function rndinterrogato() {
     var inte = document.getElementById("interrogato")
-    inte.innerHTML = alunni[Math.floor((Math.random()*alunni.length)+1)];
+    inte.innerHTML = alunni[Math.floor((Math.random()* 3)+1)];
 }
 </script>
 </body>
